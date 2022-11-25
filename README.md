@@ -1,7 +1,27 @@
-We provide implementations of both SuS construction methods and the TIP-X inference procedure. All our
-scripts provide examples on the CIFAR-10 dataset as a sample dataset.
-All our code was tested on Python 3.6.8 with Pytorch 1.9.0+cu111
-Ideally, our script require access to a single GPU (uses .cuda() for inference). Inference can also be done on CPUs with minimal chagnes to the scripts.
+# SuS-X: Training-Free Name-Only Transfer of Vision-Language Models
+
+Official code for the paper "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models". 
+
+## Introduction
+Contrastive Language-Image Pre-training (CLIP) has emerged as a simple yet effective way to train large-scale vision-language models. CLIP demonstrates impressive zero-shot classification and retrieval on diverse downstream tasks. However, to leverage its full potential, fine-tuning still appears to be necessary. Fine-tuning the entire CLIP model can be resource-intensive and unstable. Moreover, recent methods that aim to circumvent this need for
+fine-tuning still require access to images from the target distribution. We pursue a different approach and explore the regime of training-free "name-only transfer" in which the only knowledge we possess about the downstream task comprises the names of downstream target categories. We propose a novel method, SuS-X, consisting of two key building blocks: "SuS" and "TIP-X", that requires neither intensive fine-tuning nor costly labelled data. SuS-X achieves state-of-the-art zero-shot classification results on 19 benchmark datasets. We further show the utility of TIP-X in the training-free few-shot setting, where we again achieve state-of-the-art results over strong training-free baselines.
+
+## Getting started
+All our code was tested on Python 3.6.8 with Pytorch 1.9.0+cu111. Ideally, our scripts require access to a single GPU (uses `.cuda()` for inference). Inference can also be done on CPUs with minimal changes to the scripts.
+
+#### Setting up environments
+We recommend setting up a python virtual environment and installing all the requirements. Please follow these steps to set up the project folder correctly:
+
+```bash
+git clone https://github.com/vishaal27/SuS-X.git
+cd SuS-X
+
+python3 -m venv ./env
+source env/bin/activate
+
+pip install -r requirements.txt
+```
+
 
 The code directory is structured as:
 |
