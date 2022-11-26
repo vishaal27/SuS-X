@@ -22,7 +22,7 @@ data/
 |–– eurosat/
 |–– imagenet-sketch/
 |–– imagenet-r/
-|–– country211
+|–– country211/
 ```
 
 In case you need to download your datasets to an external device or have them already downloaded at another location, you can simply create symbolic links inside `./data` pointing to the correct dataset location using:
