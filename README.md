@@ -1,4 +1,4 @@
-# SuS-X: Training-Free Name-Only Transfer of Vision-Language Models [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+# SuS-X: Training-Free Name-Only Transfer of Vision-Language Models [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/) ![PyTorch](https://img.shields.io/badge/PyTorch-grey.svg?logo=PyTorch)
 
 Official code for the paper "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models". Authors: [Vishaal Udandarao](http://vishaal27.github.io/), [Ankush Gupta](https://ankushgupta.org/) and [Samuel Albanie](http://samuelalbanie.com/).
 
