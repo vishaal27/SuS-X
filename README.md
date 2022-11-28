@@ -126,7 +126,7 @@ python generate_text_classifier_weights.py --dataset <dataset>
 ```
 This script will again save all the text classifier weights in `features/`.
 
-For ensuring reproducibility, we release the features used for all our baselines and our best performing SuS-X-LC-P model [here](https://drive.google.com/drive/u/0/folders/1nzRf13Ha1gvKP_n_4a_JreplA0QkHGBh). We further provide details descriptions of the naming of the feature files in [`features/FEATURES.md`](https://github.com/vishaal27/SuS-X/blob/main/features/FEATURES.md).
+For ensuring reproducibility, we release the features used for all our baselines and our best performing SuS-X-LC-P model [here](https://drive.google.com/drive/u/0/folders/1nzRf13Ha1gvKP_n_4a_JreplA0QkHGBh). We further provide detailed descriptions of the naming of the feature files in [`features/FEATURES.md`](https://github.com/vishaal27/SuS-X/blob/main/features/FEATURES.md).
 
 ## TIP-X Inference
 Once you have correctly saved all the feature files, you can run TIP-X using:
