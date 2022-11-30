@@ -1,6 +1,6 @@
 # SuS-X: Training-Free Name-Only Transfer of Vision-Language Models [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/) [![PyTorch](https://img.shields.io/badge/PyTorch-grey.svg?logo=PyTorch)](https://pytorch.org/blog/pytorch-1.9-released/)
 
-Official code for the paper "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models". Authors: [Vishaal Udandarao](http://vishaal27.github.io/), [Ankush Gupta](https://ankushgupta.org/) and [Samuel Albanie](http://samuelalbanie.com/).
+Official code for the paper ["SuS-X: Training-Free Name-Only Transfer of Vision-Language Models"](https://arxiv.org/abs/2211.16198). Authors: [Vishaal Udandarao](http://vishaal27.github.io/), [Ankush Gupta](https://ankushgupta.org/) and [Samuel Albanie](http://samuelalbanie.com/).
 
 ## Introduction
 Contrastive Language-Image Pre-training (CLIP) has emerged as a simple yet effective way to train large-scale vision-language models. CLIP demonstrates impressive zero-shot classification and retrieval on diverse downstream tasks. However, to leverage its full potential, fine-tuning still appears to be necessary. Fine-tuning the entire CLIP model can be resource-intensive and unstable. Moreover, recent methods that aim to circumvent this need for
@@ -134,6 +134,17 @@ Once you have correctly saved all the feature files, you can run TIP-X using:
 python tipx.py --dataset <dataset> --backbone <CLIP_visual_backbone> --prompt_shorthand <prompting_strategy> --sus_type <SuS_type>
 ```
 The `sus_type` parameter is `lc` for SuS-LC and `sd` for SuS-SD.
+
+## Citation
+If you found this work useful, please consider citing it as:
+```
+@article{udandarao2022sus-x,
+  title={SuS-X: Training-Free Name-Only Transfer of Vision-Language Models},
+  author={Udandarao, Vishaal and Gupta, Ankush and Albanie, Samuel},
+  journal={arXiv preprint arXiv:2211.16198},
+  year={2022}
+}
+```
 
 ## Acknowledgements
 We build on several previous well-maintained repositories like [CLIP](https://github.com/openai/CLIP/tree/main/clip), [CoOp](https://github.com/KaiyangZhou/CoOp/), [CLIP-Adapter](https://github.com/gaopengcuhk/CLIP-Adapter), [TIP-Adapter](https://github.com/gaopengcuhk/Tip-Adapter/) and [CuPL](https://github.com/sarahpratt/CuPL). We thank the authors for providing such amazing code, and enabling further research towards better vision-language model adaptation. We also thank the authors of the amazing [Stable-Diffusion](https://stability.ai/blog/stable-diffusion-public-release) and [LAION-5B](https://laion.ai/blog/laion-5b/) projects, both of which are pivotal components of our method.
