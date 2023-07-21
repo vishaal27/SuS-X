@@ -1,6 +1,6 @@
 # SuS-X: Training-Free Name-Only Transfer of Vision-Language Models [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/) [![PyTorch](https://img.shields.io/badge/PyTorch-grey.svg?logo=PyTorch)](https://pytorch.org/blog/pytorch-1.9-released/) [![Paper](http://img.shields.io/badge/paper-arxiv.2211.16198-B31B1B.svg)](https://arxiv.org/abs/2211.16198)
 
-Official code for the ICCV'23 paper ["SuS-X: Training-Free Name-Only Transfer of Vision-Language Models"](https://arxiv.org/abs/2211.16198). Authors: [Vishaal Udandarao](http://vishaal27.github.io/), [Ankush Gupta](https://ankushgupta.org/) and [Samuel Albanie](http://samuelalbanie.com/).
+Official code for the ICCV'23 paper ["SuS-X: Training-Free Name-Only Transfer of Vision-Language Models"](https://vishaal27.github.io/SuS-X-webpage/). Authors: [Vishaal Udandarao](http://vishaal27.github.io/), [Ankush Gupta](https://ankushgupta.org/) and [Samuel Albanie](http://samuelalbanie.com/).
 
 ## Introduction
 Contrastive Language-Image Pre-training (CLIP) has emerged as a simple yet effective way to train large-scale vision-language models. CLIP demonstrates impressive zero-shot classification and retrieval on diverse downstream tasks. However, to leverage its full potential, fine-tuning still appears to be necessary. Fine-tuning the entire CLIP model can be resource-intensive and unstable. Moreover, recent methods that aim to circumvent this need for
