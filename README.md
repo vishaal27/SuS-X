@@ -138,11 +138,11 @@ The `sus_type` parameter is `lc` for SuS-LC and `sd` for SuS-SD.
 ## Citation
 If you found this work useful, please consider citing it as:
 ```
-@article{udandarao2022sus-x,
+@inproceedings{udandarao2022sus-x,
   title={SuS-X: Training-Free Name-Only Transfer of Vision-Language Models},
   author={Udandarao, Vishaal and Gupta, Ankush and Albanie, Samuel},
-  journal={arXiv preprint arXiv:2211.16198},
-  year={2022}
+  booktitle={ICCV},
+  year={2023}
 }
 ```
 
