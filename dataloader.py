@@ -46,6 +46,7 @@ class ImageDatasetFromPaths(Dataset):
                     image_rand = None
                     continue
             image = image_rand
+            label = self.labels[rand_ind]
 
         image = transforms.ToPILImage()(image)
         image = image.convert("RGB")
